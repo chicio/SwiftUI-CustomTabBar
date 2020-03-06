@@ -13,14 +13,14 @@ struct CustomTabBar: View {
 
     var body: some View {
         NavigationView {
-            VStack(spacing: 0) {
+            VStack {
                 if self.currentView == .Tab1 {
                     Screen1()
                 }
                 if self.currentView == .Tab2 {
                     Screen2()
                 }
-                HStack(spacing: 0) {
+                HStack {
                     TabBarItem(currentView: self.$currentView, imageName: "list.bullet", paddingEdges: .leading, tab: .Tab1)
                     Spacer()
                     ShowModalTabBarItem(radius: 55) {
