@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		452CF2C624124B1B00889678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2C524124B1B00889678 /* AppDelegate.swift */; };
 		452CF2C824124B1B00889678 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2C724124B1B00889678 /* SceneDelegate.swift */; };
-		452CF2CA24124B1B00889678 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2C924124B1B00889678 /* CustomTabBar.swift */; };
+		452CF2CA24124B1B00889678 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2C924124B1B00889678 /* MainView.swift */; };
 		452CF2CC24124B1C00889678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452CF2CB24124B1C00889678 /* Assets.xcassets */; };
 		452CF2CF24124B1C00889678 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452CF2CE24124B1C00889678 /* Preview Assets.xcassets */; };
 		452CF2D224124B1C00889678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452CF2D024124B1C00889678 /* LaunchScreen.storyboard */; };
@@ -20,13 +20,15 @@
 		452CF2E224124D3300889678 /* ShowModalTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2E124124D3300889678 /* ShowModalTabBarItem.swift */; };
 		452CF2E424124E3A00889678 /* ScreenModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2E324124E3A00889678 /* ScreenModal.swift */; };
 		452CF2E6241253FB00889678 /* ScreenDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2E5241253FB00889678 /* ScreenDetail.swift */; };
+		452CF2EA2412676800889678 /* CurrentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2E92412676800889678 /* CurrentScreen.swift */; };
+		452CF2EC241267CF00889678 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CF2EB241267CF00889678 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		452CF2C224124B1B00889678 /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452CF2C524124B1B00889678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		452CF2C724124B1B00889678 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		452CF2C924124B1B00889678 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		452CF2C924124B1B00889678 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		452CF2CB24124B1C00889678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452CF2CE24124B1C00889678 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		452CF2D124124B1C00889678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		452CF2E5241253FB00889678 /* ScreenDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenDetail.swift; sourceTree = "<group>"; };
 		452CF2E72412593800889678 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		452CF2E8241259C300889678 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		452CF2E92412676800889678 /* CurrentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentScreen.swift; sourceTree = "<group>"; };
+		452CF2EB241267CF00889678 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +80,16 @@
 			children = (
 				452CF2C524124B1B00889678 /* AppDelegate.swift */,
 				452CF2C724124B1B00889678 /* SceneDelegate.swift */,
-				452CF2C924124B1B00889678 /* CustomTabBar.swift */,
+				452CF2C924124B1B00889678 /* MainView.swift */,
 				452CF2D924124BA700889678 /* TabBarItem.swift */,
 				452CF2E124124D3300889678 /* ShowModalTabBarItem.swift */,
+				452CF2EB241267CF00889678 /* TabBar.swift */,
 				452CF2DB24124BC700889678 /* Tab.swift */,
 				452CF2DD24124C7700889678 /* Screen1.swift */,
 				452CF2DF24124C8400889678 /* Screen2.swift */,
 				452CF2E324124E3A00889678 /* ScreenModal.swift */,
 				452CF2E5241253FB00889678 /* ScreenDetail.swift */,
+				452CF2E92412676800889678 /* CurrentScreen.swift */,
 				452CF2CB24124B1C00889678 /* Assets.xcassets */,
 				452CF2D024124B1C00889678 /* LaunchScreen.storyboard */,
 				452CF2D324124B1C00889678 /* Info.plist */,
@@ -174,13 +180,15 @@
 				452CF2C624124B1B00889678 /* AppDelegate.swift in Sources */,
 				452CF2C824124B1B00889678 /* SceneDelegate.swift in Sources */,
 				452CF2E6241253FB00889678 /* ScreenDetail.swift in Sources */,
+				452CF2EC241267CF00889678 /* TabBar.swift in Sources */,
 				452CF2DC24124BC700889678 /* Tab.swift in Sources */,
+				452CF2EA2412676800889678 /* CurrentScreen.swift in Sources */,
 				452CF2E024124C8400889678 /* Screen2.swift in Sources */,
 				452CF2DE24124C7700889678 /* Screen1.swift in Sources */,
 				452CF2E224124D3300889678 /* ShowModalTabBarItem.swift in Sources */,
 				452CF2E424124E3A00889678 /* ScreenModal.swift in Sources */,
 				452CF2DA24124BA700889678 /* TabBarItem.swift in Sources */,
-				452CF2CA24124B1B00889678 /* CustomTabBar.swift in Sources */,
+				452CF2CA24124B1B00889678 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
