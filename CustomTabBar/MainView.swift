@@ -17,6 +17,7 @@ struct MainView: View {
                 CurrentScreen(currentView: self.$currentView)
                 TabBar(currentView: self.$currentView, showModal: self.$showModal)
             }
+            .edgesIgnoringSafeArea(.all)
         }
         .background(Color(.white))
         .navigationViewStyle(StackNavigationViewStyle())
