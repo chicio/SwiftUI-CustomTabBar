@@ -3,6 +3,8 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/SwiftUI-CustomTabBar/master/LICENSE.md)
 [![Supported platform](https://img.shields.io/badge/platforms-iOS-orange.svg)](https://img.shields.io/badge/platforms-iOS-orange.svg)
 
+**NB.: Considering the success of the blog post below, I decided to create a new custom TabBar SwiftUI library called [TabBarUIAction](https://github.com/chicio/TabBarUIAction "TabBArUIAction custom tab bar swiftui"). Go and check it out!!!**
+
 A sample project for my blog post post [Create a custom TabBar in SwiftUI](https://www.fabrizioduroni.it/2020/03/06/custom-tabbar-swiftui.html), where I show how to create a custom TabBar using SwiftUI. 
 
 ### Description
